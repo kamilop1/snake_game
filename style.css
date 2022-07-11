@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+.main{
+    width:70vh;
+    height:70vh;
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr)
+}
+.main div{
+    border: 1px solid black
+}
+.snake{
+    background: greenyellow;
+}
